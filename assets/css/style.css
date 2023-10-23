@@ -233,10 +233,8 @@ html{
 
 /* Tour places */
 .place-list{
-    margin-top: 32px;
     overflow: hidden;
-    margin-left: -8px;
-    margin-right: -8px;
+    margin: 32px -8px 0;
 }
 
 .place-item{
@@ -247,7 +245,14 @@ html{
 
 .place-img{
      width: 100%; /* Để hình ảnh nằm gọn trong width của thẻ cha */
+     display: block;
 
+}
+.place-img:hover{
+    opacity: 0.6;
+}
+.place-body{
+    background-color: #fff;
 }
 
 #footer{
